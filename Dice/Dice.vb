@@ -43,7 +43,7 @@ Module Dice
             Console.WriteLine(vbNewLine)
             Console.WriteLine($"Press enter to roll if you DARE!!")
             Console.ReadLine()
-
+            Console.Clear()
             For column = 1 To 12
                 data(column) = Nothing
             Next
